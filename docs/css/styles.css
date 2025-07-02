@@ -918,7 +918,7 @@ body.dark-mode .btn.secondary:hover {
 
 
 body.dark-mode .how-it-works {
-  /* No specific change needed if general dark mode body bg is sufficient */
+  background-color: #1e1e1e; /* Fondo oscuro consistente con el resto del sitio */
 }
 
 body.dark-mode .section-sub {
@@ -1269,4 +1269,9 @@ body.dark-mode .about-card ul {
   .support-section {
     padding: 40px 6%;
   }
+}
+
+body.dark-mode .dark-section {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
 }
