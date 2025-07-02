@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="notFoundTitleTag">404 - Page Not Found | HormonalCare</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      /* Additional styles for 404 page content if needed, or can be in styles.css */
+      .not-found-main {
+        padding: 60px 10% 80px; /* Adjusted padding for potentially less content */
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: calc(100vh - 160px - 150px); /* Full viewport height minus header and footer approx heights */
+      }
+      .not-found-main img {
+        max-width: 350px; /* Slightly smaller image */
+        width: 100%;
+        margin-bottom: 1.5rem;
+      }
+      .not-found-main h1 {
+        font-size: 2.2rem;
+        margin-bottom: 0.8rem;
+        color: #8F7193; /* Default theme color */
+      }
+      body.dark-mode .not-found-main h1 {
+        color: #bb86fc; /* Dark mode theme color */
+      }
+      .not-found-main p {
+        font-size: 1rem;
+        color: #555; /* Default theme color */
+        margin-bottom: 1.5rem;
+        max-width: 500px;
+      }
+      body.dark-mode .not-found-main p {
+        color: #b0b0b0; /* Dark mode theme color */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="navbar-left">
+        <img src="images/Logo.png" alt="HormonalCare Logo" class="logo" />
+      </div>
+      <nav class="navbar-center">
+        <a href="index.html#hero" data-i18n="navHome">Home</a>
+        <a href="index.html#features" data-i18n="navFeatures">Features</a>
+        <a href="index.html#plans" data-i18n="navPlans">Plans</a>
+        <a href="index.html#testimonials" data-i18n="navTestimonials">Testimonials</a>
+        <a href="index.html#support" data-i18n="navSupport">Support</a>
+        <a href="about.html" data-i18n="navAboutUs">About us</a>
+      </nav>
+      <div class="navbar-right">
+        <a href="#" data-i18n="register">Register</a>
+        <button class="btn primary" data-i18n="login">Login</button>
+        <button id="darkModeToggle" class="btn icon-btn" aria-label="Toggle dark mode">🌙</button>
+        <button id="langSwitcherBtn" class="btn" aria-label="Toggle language">EN</button>
+      </div>
+    </header>
+
+    <!-- MAIN 404 SECTION -->
+    <main class="not-found-main">
+      <img src="images/404.png" alt="404 Illustration" />
+      <h1 data-i18n="notFoundHeading">Oops! Page Not Found</h1>
+      <p data-i18n="notFoundText">
+        We couldn't find the page you're looking for. Let's get you back home.
+      </p>
+      <a href="index.html" class="btn primary" data-i18n="goToHome">Go to Home</a>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-col brand">
+          <p data-i18n="footerVision">Our vision is to provide convenience and help increase your sales/business.</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="images/twiiter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://github.com/Grupo-Diseno-los-hormonales" target="_blank"><img src="images/github.png" alt="GitHub" /></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footerAbout">About</h4>
+          <ul>
+            <li><a href="index.html#features" data-i18n="footerHowItWorks">How it works</a></li>
+            <li><a href="#" data-i18n="footerFeatured">Featured</a></li>
+            <li><a href="#" data-i18n="footerPartnership">Partnership</a></li>
+            <li><a href="#" data-i18n="footerBusinessRelation">Business Relation</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footerCommunity">Community</h4>
+          <ul>
+            <li><a href="#" data-i18n="footerEvents">Events</a></li>
+            <li><a href="#" data-i18n="footerBlog">Blog</a></li>
+            <li><a href="#" data-i18n="footerPodcast">Podcast</a></li>
+            <li><a href="#" data-i18n="footerInviteFriend">Invite a friend</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footerSocials">Socials</h4>
+          <ul>
+            <li><a href="https://discord.com/" target="_blank">Discord</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+            <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>  
+            <li><a href="https://github.com/Grupo-Diseno-los-hormonales" target="_blank">Github</a></li>  
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footerRights">&copy;2025 HormonalCare. All rights reserved</p>
+        <div class="footer-links">
+          <a href="#" data-i18n="footerPrivacy">Privacy & Policy</a>
+          <a href="#" data-i18n="footerTerms">Terms & Condition</a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/i18n.js"></script>
+  </body>
+</html>
