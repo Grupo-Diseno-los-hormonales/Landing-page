@@ -92,5 +92,6 @@
     "notFoundTitleTag": "404 - Página no Encontrada | HormonalCare",
     "notFoundHeading": "¡Ups! Página no Encontrada",
     "notFoundText": "No pudimos encontrar la página que estás buscando. Volvamos al inicio.",
-    "goToHome": "Ir al Inicio"
+    "goToHome": "Ir al Inicio",
+    "backToTop": "Volver al Inicio"
 }

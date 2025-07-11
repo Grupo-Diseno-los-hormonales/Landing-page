@@ -1275,3 +1275,59 @@ body.dark-mode .dark-section {
   background-color: #1e1e1e;
   color: #f0f0f0;
 }
+
+/* ==================== BACK TO TOP BUTTON ==================== */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #8F7193;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-to-top:hover {
+  background-color: #7b6282;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Dark mode styles for back to top button */
+body.dark-mode .back-to-top {
+  background-color: #bb86fc;
+  color: #121212;
+}
+
+body.dark-mode .back-to-top:hover {
+  background-color: #a76ef4;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+  .back-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 1.3rem;
+  }
+}

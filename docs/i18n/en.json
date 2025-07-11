@@ -92,5 +92,6 @@
     "notFoundTitleTag": "404 - Page Not Found | HormonalCare",
     "notFoundHeading": "Oops! Page Not Found",
     "notFoundText": "We couldn't find the page you're looking for. Let's get you back home.",
-    "goToHome": "Go to Home"
+    "goToHome": "Go to Home",
+    "backToTop": "Back to Top"
 }
